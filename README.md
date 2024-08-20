@@ -1,2 +1,3 @@
 # PasswordGen
+This code generates a random password based on user-specified length. It first imports the necessary libraries: `string` for accessing predefined sets of characters (lowercase letters, uppercase letters, digits, and punctuation) and `random` for randomizing operations. The code then prompts the user to input the desired password length. It creates a list containing all lowercase letters, uppercase letters, digits, and special characters. This list is shuffled to randomize the order of characters. Finally, the code selects the first `n` characters from the shuffled list, where `n` is the user-defined length, and combines them into a string to form the password, which is then printed.
  
